@@ -1,0 +1,50 @@
+/* * {
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  color: #353535;
+} */
+
+/*----uselr Section----*/
+.slide-one {
+  margin-top: 75px;
+}
+.slide-item-one img {
+  height: 520px !important;
+  object-fit: cover;
+}
+.slide-caption-one {
+  padding-bottom: 250px !important;
+}
+.slide-caption-one h1 {
+  font-size: 60px !important;
+  color: #ffffff !important;
+  animation-delay: 1s;
+  font-family: "Satisfy", cursive;
+}
+.slide-caption-one h3 {
+  font-size: 25px !important;
+  color: #d9d9d9 !important;
+  animation-delay: 2s;
+  font-family: "Raleway", sans-serif;
+}
+.slide-item-one .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 960px) {
+  .slide-one {
+    margin-top: 65px;
+  }
+  .slide-caption-one h1 {
+    font-size: 28px !important;
+  }
+  .slide-caption-one h3 {
+    font-size: 14px !important;
+  }
+}

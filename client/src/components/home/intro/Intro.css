@@ -1,0 +1,88 @@
+.title {
+  text-align: center;
+  /* margin-top:20px ; */
+  color: tomato;
+  background-color: black;
+  margin-top: 2px;
+  text-decoration: none;
+}
+.title a {
+  text-decoration: none;
+}
+
+.main-content {
+  background-image: url("../../../images/Home_Background/biography-bg.png");
+  /* background-color: darkslategray; */
+  background-repeat: no-repeat;
+  height: 750px;
+  border-bottom: 2px solid ghostwhite;
+}
+
+.content {
+  padding: 10px;
+  margin: 5px;
+}
+.overview {
+  width: 70%;
+  padding: 5px;
+  margin: 5px;
+  border-right: 2px solid red;
+  float: left;
+}
+.overview h3 {
+  padding: 2px;
+  margin: 1px;
+  border: 3px solid yellowgreen;
+  background-color: white;
+  text-align: left;
+  font-weight: bold;
+  color: darkgrey;
+  /* text-decoration: underline  goldenrod; */
+}
+
+.overview .video-section {
+  float: left;
+  margin-right: 10px;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #107c10;
+}
+
+.overview .text-section {
+  text-justify: right;
+  color: gray;
+}
+
+.content .newsbar-side {
+  float: right;
+}
+
+.newsbar-side {
+  width: 304px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid goldenrod;
+  margin-right: 75px;
+}
+
+.newsbar-side h3 {
+  text-align: center;
+  padding: 1px;
+  margin: 1px;
+  border: 3px solid yellowgreen;
+  background-color: white;
+  font-weight: bold;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-top: -5px;
+  width: 300px;
+  color: darkgrey;
+}
+
+.newsbar-side p {
+  text-align: center;
+  color: orangered;
+  padding: 1px;
+  margin: 2px;
+  border-bottom: 1px outset gainsboro;
+}

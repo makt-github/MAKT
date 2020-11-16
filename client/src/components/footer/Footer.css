@@ -1,0 +1,141 @@
+.footer-top p {
+  color: gray;
+  line-height: 25px;
+}
+
+.footer-top h2,
+h3 {
+  color: honeydew;
+}
+.footer-top h2 {
+  font-size: 18px;
+}
+
+.footer-top {
+  background: black;
+  padding: 20px 0;
+  padding-top: 65px;
+}
+
+.row {
+  margin: 3px;
+  padding: 2px;
+}
+.part-one h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: cornsilk;
+  letter-spacing: 2px;
+  margin: 11px;
+}
+
+.part-two h2 {
+  color: cornsilk;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.part-two h2:before {
+  content: "|";
+  color: crimson;
+  padding-right: 10px;
+}
+.part-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.part-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+.part-two ul li a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.part-three h2 {
+  color: cornsilk;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.part-three h2:before {
+  content: "|";
+  color: crimson;
+  padding-right: 10px;
+}
+
+.address-line ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.address-line ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.icon a {
+  background: grey;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 4px;
+}
+.icon a:hover {
+  background: goldenrod;
+}
+
+.icon i {
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 10px 12px;
+}
+
+.part-four h2 {
+  color: cornsilk;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.part-four h2:before {
+  content: "|";
+  color: crimson;
+  padding-right: 10px;
+}
+
+/* .part-four form input*/
+#submit {
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  /* margin-left: -5px; */
+  float: left;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  background: darkslategrey;
+  line-height: 75px;
+}
+.footer-bottom-text span {
+  color: #c65039;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-mb-30 {
+    margin-bottom: 30px;
+  }
+  .footer-top {
+    padding: 50px 0;
+  }
+}

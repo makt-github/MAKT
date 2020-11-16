@@ -1,0 +1,25 @@
+.top-news h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+.top-news h2::after {
+  content: "";
+  width: 140px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #db584e;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  opacity: 0.8;
+}
+
+.top-news {
+  margin-top: 60px;
+}
